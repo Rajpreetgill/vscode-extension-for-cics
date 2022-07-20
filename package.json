@@ -631,7 +631,12 @@
     }
   },
   "resolutions": {
-    "**/log4js": "6.4.6"
+    "**/ansi-regex": "^5.0.1",
+    "**/log4js": "6.4.6",
+    "**/glob-parent": "^5.1.2",
+    "**/minimist": "^1.2.6",
+    "**/moment": "^2.29.4",
+    "**/tar": "^6.1.9"
   },
   "scripts": {
     "vscode:prepublish": "npm run build",
@@ -661,9 +666,9 @@
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@zowe/cics-for-zowe-cli": "^5.0.0",
-    "@zowe/cli": "^7.2.3",
-    "@zowe/imperative": "^5.0.1",
-    "@zowe/zowe-explorer-api": "^2.1.0",
+    "@zowe/cli": "7.2.3",
+    "@zowe/imperative": "5.3.3",
+    "@zowe/zowe-explorer-api": "2.1.0",
     "axios": "^0.21.4",
     "https": "^1.0.0",
     "run-script-os": "^1.1.6",
